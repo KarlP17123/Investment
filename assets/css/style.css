@@ -9,21 +9,23 @@
 body {
     font-family: Oswald, sans-serif;
     font-weight: 300;
-    color:#000000;
+    color:#FFFFFF;
+    background-color: #34A6FF;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:#6CABFF;
+    color:#363636;
 }
 
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 20px;
 }
 
 /* navigation links */
@@ -49,7 +51,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 4px solid #6CABFF;
+    border-bottom: 4px solid #FFFFFF;
 }
 
 /* hero image */
@@ -65,3 +67,12 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image1.jpg') no-repeat center center;
 }
+
+/* About Us section */
+
+.center {
+    text-align: center;
+}
+
+
+
